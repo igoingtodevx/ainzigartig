@@ -17,7 +17,7 @@ export const Datenschutz: React.FC = () => (
       <div className="rounded-[26px] border border-[#B77A36]/25 bg-accent/12 p-5 md:p-6 mb-6">
         <p className="text-xs uppercase tracking-[0.12em] font-bold text-[#8B5A24] mb-2">Pre-Launch-Hinweis</p>
         <p className="text-sm text-muted leading-relaxed">
-          Die technische Website steht bereits, die endgültigen Unternehmens-, Domain- und Vertragsdaten jedoch noch nicht. Deshalb ist diese Seite bewusst als Arbeitsstand gekennzeichnet und muss vor dem öffentlichen Livegang anhand des finalen Setups rechtlich geprüft und vervollständigt werden.
+          Die technische Website steht bereits, die endgültige Geschäftsanschrift und die vollständigen Datenschutzangaben jedoch noch nicht. Diese Seite bleibt bis zum öffentlichen Livegang als Arbeitsstand gekennzeichnet und wird anhand des finalen Setups vervollständigt.
         </p>
       </div>
 
@@ -35,16 +35,18 @@ export const Datenschutz: React.FC = () => (
         <section className="pt-6 border-t border-ink/10">
           <h2 className="font-editorial text-2xl mb-2">Was vor Livegang ergänzt werden muss</h2>
           <p className="text-sm text-muted leading-relaxed">
-            Verantwortliche Stelle, endgültige Hosting- und Anbieterinformationen, konkrete Datenflüsse der produktiv aktivierten KI-Funktionen, Rechtsgrundlagen, Aufbewahrungsfristen, Betroffenenrechte, Kontaktadresse und gegebenenfalls weitere eingesetzte Analyse- oder Drittanbieter-Dienste.
+            Ladungsfähige Geschäftsanschrift, endgültige Hosting- und Anbieterinformationen, konkrete Datenflüsse der produktiv aktivierten KI-Funktionen, Rechtsgrundlagen, Aufbewahrungsfristen, Betroffenenrechte und gegebenenfalls weitere eingesetzte Analyse- oder Drittanbieter-Dienste.
           </p>
         </section>
 
         <section className="pt-6 border-t border-ink/10">
-          <h2 className="font-editorial text-2xl mb-2">Kontakt während der Preview</h2>
+          <h2 className="font-editorial text-2xl mb-2">Kontakt</h2>
           <p className="text-sm text-muted leading-relaxed">
-            Bis eine eigene Ainzigartig-Domain samt Geschäftsadresse final eingerichtet ist, wird auf dieser Preview keine erfundene E-Mail-Adresse angegeben.
+            E-Mail:{' '}
+            <a href="mailto:contact@sejerlaenner.tech" className="text-ink underline underline-offset-4 hover:text-accent-hover transition-colors">
+              contact@sejerlaenner.tech
+            </a>
           </p>
-          <Link to="/#kontakt" className="brand-pill mt-4 bg-ink text-white hover:bg-[#33312E] text-sm">Zum Kontaktformular</Link>
         </section>
       </div>
     </div>
